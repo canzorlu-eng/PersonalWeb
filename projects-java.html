@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Can Zorlu</title>
+  <style>
+  
+      /* Tüm sayfayı kaplayan bir container oluştur */
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Yükseklik olarak tüm ekranı kaplar */
+    }
+
+    /* Formun stilleri */
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      padding: 20px;
+      background-color: #f3f3f3;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      margin-bottom: 10px;
+    }
+
+    input, textarea {
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+  .divOz{
+    width: %100;
+    height: 250px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    margin-bottom:20px;
+  }
+
+.divOz img {
+    margin-right: 20px;
+}
+
+.content {
+    max-width: 600px; /* İsteğinize göre ayarlayabilirsiniz */
+}
+header {
+  text-align: center;
+}
+nav{
+  width:%100;
+  display: flex;
+  align-items:center;
+  gap:30px;
+  height:50px;
+  justify-content: center;
+}
+a{
+  position: relative;
+  cursor: pointer;
+  color: black;
+  font-size:28px;
+  padding:0.5rem 1rem;
+  transition: color 0.25s;
+}
+a::after{
+  position: absolute;
+  content: "";
+  inset: 0;
+  background: black;
+  scale: 1 0;
+  z-index: -1;
+  transition:0.45s;
+  border-radius: 10px;
+}
+a:hover{
+  color: white;
+}
+a:hover::after{
+  scale: 1 1;
+}
+  </style>
+
+</head>
+<body>
+<nav>
+   <a href="web.html">Home</a> 
+   <a href="projects-python.html">Projects on Python</a> 
+   <a href="projects-java.html">Projects on Java</a> 
+   <a href="projects-cpp.html">Projects on C++</a> 
+   <a href="contact.html">Contact</a> 
+</nav>
+
+<ul>
+<li><a href="java/booking_system.zip">Booking System</a></li>
+<li><a href="java/gym-meal-machine.zip">Gym Meal Machine</a></li>
+<li><a href="java/map-analyzer.zip">Map Analyzer</a></li>
+<li><a href="java/mother-load game.zip">Mother Load Game</a></li>
+<li><a href="java/dice-game.zip">Dice Game</a></li>
+</ul>
+
+
+
+
+    <a href="https://www.linkedin.com/in/can-zorlu-691455246/" target="_blank" ><img src="linkedin.png" alt="bulunamadı" width="50" height="30"></a>
+    <a href="https://www.instagram.com/zorlu3214/" target="_blank" ><img src="insta.png" alt="bulunamadı" width="50" height="30"></a>
+    <a href="https://x.com/ZorluHasan1234" target="_blank" ><img src="x.png" alt="bulunamadı" width="50" height="30"></a>
+
+
+  <footer>
+    <p>&copy; All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
