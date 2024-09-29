@@ -1,7 +1,14 @@
 {
-    "packageManager": "pnpm@7.5.1",
-    "private": true,
-    "dependencies": {
-        "@vercel/edge": "^1.1.2"
-    }
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "A personal portfolio website",
+  "main": "web.html",
+  "scripts": {
+    "start": "node middleware.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
